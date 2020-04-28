@@ -8,6 +8,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatChipsModule } from '@angular/material/chips';
+import { MatButtonModule } from '@angular/material/button';
 import { PresentationComponent } from './presentation/presentation.component';
 import { WorkComponent } from './work/work.component';
 
@@ -27,6 +28,7 @@ import { WorkComponent } from './work/work.component';
     MatIconModule,
     MatListModule,
     MatChipsModule,
+    MatButtonModule,
     // End Angular Material Modules
 
     CommonModule,

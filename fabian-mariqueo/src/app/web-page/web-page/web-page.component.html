@@ -1,5 +1,15 @@
 <mat-toolbar>
-    <span>Fabián Mariqueo</span>
+    <mat-toolbar-row class="d-flex justify-content-end">
+        <div class="mx-2">
+            <span>Fabián Mariqueo</span>
+        </div>
+        <div class="mx-2">
+            <a mat-icon-button color="accent" href="https://github.com/FabianMariqueo" aria-label="Github Repository"
+                target="_blank">
+                <mat-icon [inline]="true" svgIcon="github-brands"></mat-icon>
+            </a>
+        </div>
+    </mat-toolbar-row>
 </mat-toolbar>
 
 
@@ -9,6 +19,17 @@
 
 <div class="footer pt-3">
     <div class="d-flex justify-content-center pt-3">
-        <span class="mat-display-1">Fabián Mariqueo</span>
+        <h4>Fabián Mariqueo - Software Engineer - Universidad de La Frontera</h4>
+    </div>
+    <div class="d-flex justify-content-center pb-3">
+        <a mat-mini-fab color="accent" href="https://github.com/FabianMariqueo" aria-label="Github Repository"
+            target="_blank">
+            <mat-icon svgIcon="github-brands"></mat-icon>
+        </a>
+
+        <a mat-mini-fab color="accent" href="https://www.linkedin.com/in/fabian-mariqueo-huilcapan-32b62310b/" aria-label="Linkedin Profile"
+            target="_blank">
+            <mat-icon svgIcon="linkedin-brands"></mat-icon>
+        </a>
     </div>
 </div>
