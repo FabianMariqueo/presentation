@@ -1,0 +1,25 @@
+@import "../../../assets/themes/theme.scss";
+
+.profile-image {
+    border-radius: 50px !important;
+    max-width: 320px;
+    height: auto;
+}
+
+.background-image {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+#profile {
+    background: linear-gradient(110deg, mat-color($primary) , mat-color($accent) );
+    color: mat-color($accent, 50);
+}
