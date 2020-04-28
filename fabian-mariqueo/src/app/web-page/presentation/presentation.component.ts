@@ -15,7 +15,7 @@ export class PresentationComponent implements OnInit {
   ) {
     this.matIconRegistry.addSvgIcon(
       'cubes-solid',
-      this.domSanitizer.bypassSecurityTrustResourceUrl('/assets/Icons/cubes-solid.svg')
+      this.domSanitizer.bypassSecurityTrustResourceUrl('assets/Icons/cubes-solid.svg')
     );    
   }
 
