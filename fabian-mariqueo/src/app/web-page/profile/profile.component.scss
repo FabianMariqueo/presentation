@@ -3,7 +3,10 @@
 .profile-image {
     border-radius: 50% !important;
     max-width: 320px;
+    max-height: 820px;
     height: auto;
+    width: auto;
+    image-orientation: from-image;
 }
 
 .background-image {
@@ -20,6 +23,6 @@
 }
 
 #profile {
-    background: linear-gradient(110deg, mat-color($primary) , mat-color($accent) );
+    background: linear-gradient(110deg, mat-color($primary), mat-color($accent));
     color: mat-color($accent, 50);
 }
